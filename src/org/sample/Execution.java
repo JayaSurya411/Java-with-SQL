@@ -19,6 +19,7 @@ public class Execution {
 			System.out.println(string);
 		}
 		connection.close();
+		System.out.println("JDBC Connection was Successful");
 	}
 
 }
